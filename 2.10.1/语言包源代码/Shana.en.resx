@@ -1,0 +1,1771 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="main_1pass" xml:space="preserve">
+    <value>1 Pass</value>
+  </data>
+  <data name="main_2pass" xml:space="preserve">
+    <value>2 Pass</value>
+  </data>
+  <data name="main_enc" xml:space="preserve">
+    <value>Encoding</value>
+  </data>
+  <data name="main_encerror" xml:space="preserve">
+    <value>The encoding error has occurred.</value>
+  </data>
+  <data name="main_encfinish" xml:space="preserve">
+    <value>The encoding has been completed.</value>
+  </data>
+  <data name="main_encinfolabel" xml:space="preserve">
+    <value>Please wait...</value>
+  </data>
+  <data name="main_encstart" xml:space="preserve">
+    <value>Input filename: </value>
+  </data>
+  <data name="main_encstarttime" xml:space="preserve">
+    <value>Encoding start time: </value>
+  </data>
+  <data name="main_encstop" xml:space="preserve">
+    <value>The encoding has been stopped.</value>
+  </data>
+  <data name="main_enc_forcestop_exit" xml:space="preserve">
+    <value>Do you want to force stop the encoding and Exit the ShanaEncoder?</value>
+  </data>
+  <data name="main_enc_forcestop" xml:space="preserve">
+    <value>Do you want to force stop the encoding?</value>
+  </data>
+  <data name="main_enc_stop" xml:space="preserve">
+    <value>Do you want to stop the encoding?</value>
+  </data>
+  <data name="main_error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="main_fail" xml:space="preserve">
+    <value>Fail</value>
+  </data>
+  <data name="main_finish" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="main_folder_none" xml:space="preserve">
+    <value>The directory does not exist.</value>
+  </data>
+  <data name="main_help" xml:space="preserve">
+    <value>How to: 1. Add files from menu 2. Click the settings or preset 3. Start</value>
+  </data>
+  <data name="main_metext" xml:space="preserve">
+    <value>ShanaEncoder</value>
+  </data>
+  <data name="main_none" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="main_notice" xml:space="preserve">
+    <value>Notification</value>
+  </data>
+  <data name="main_notifyIcon_finish" xml:space="preserve">
+    <value>The encoding has been completed.</value>
+  </data>
+  <data name="main_notifyIcon_open" xml:space="preserve">
+    <value>ShanaEncoder is run.</value>
+  </data>
+  <data name="main_notifyIcon_open2" xml:space="preserve">
+    <value>Tray is enabled.</value>
+  </data>
+  <data name="main_pass" xml:space="preserve">
+    <value>Skip</value>
+  </data>
+  <data name="main_pass_exist" xml:space="preserve">
+    <value>Skip[Exist]</value>
+  </data>
+  <data name="main_please_add_file" xml:space="preserve">
+    <value>Please select list or add files.</value>
+  </data>
+  <data name="main_pm_def" xml:space="preserve">
+    <value>Default settings</value>
+  </data>
+  <data name="main_pm_open" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="main_pm_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="main_preset" xml:space="preserve">
+    <value>Preset</value>
+  </data>
+  <data name="main_preset_new_save" xml:space="preserve">
+    <value>The current settings have been changed by the user.
+Do you want to save the changed settings to the 'User Preset' and add the file to the 'User Preset'?
+
+If Click the 'Yes' button, Save the current settings and open the 'User Preset'.
+If Click the 'No' button, Disappears current settings and open the 'Selected Preset'.</value>
+  </data>
+  <data name="main_preset_new_save_fail" xml:space="preserve">
+    <value>Selected preset file not found.
+Therefore current setting is saved to User Preset and added from the User Preset.</value>
+  </data>
+  <data name="main_processtime" xml:space="preserve">
+    <value>Elapsed time</value>
+  </data>
+  <data name="main_set_chg2" xml:space="preserve">
+    <value>item(s) change the current settings?</value>
+  </data>
+  <data name="main_set_chg_now" xml:space="preserve">
+    <value>Do you want to change the settings to current settings?</value>
+  </data>
+  <data name="main_set_copy" xml:space="preserve">
+    <value>The settings have been copied to a preset folder.</value>
+  </data>
+  <data name="main_set_fail_copy" xml:space="preserve">
+    <value>Failed to copy to a preset folder.</value>
+  </data>
+  <data name="main_speed" xml:space="preserve">
+    <value>Speed </value>
+  </data>
+  <data name="main_stop" xml:space="preserve">
+    <value>Stopped</value>
+  </data>
+  <data name="main_success" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="main_userxmlname" xml:space="preserve">
+    <value>User Preset</value>
+  </data>
+  <data name="main_wait" xml:space="preserve">
+    <value>Waiting</value>
+  </data>
+  <data name="main_xml_file" xml:space="preserve">
+    <value>XML files</value>
+  </data>
+  <data name="aboutfrm_homebutton" xml:space="preserve">
+    <value>Visit website</value>
+  </data>
+  <data name="aboutfrm_infoButton" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="aboutfrm_licenseButton" xml:space="preserve">
+    <value>License</value>
+  </data>
+  <data name="aboutfrm_namelabel" xml:space="preserve">
+    <value>ShanaEncoder</value>
+  </data>
+  <data name="aboutfrm_okbutton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="about_newver" xml:space="preserve">
+    <value>Latest version: </value>
+  </data>
+  <data name="about_newver_chk" xml:space="preserve">
+    <value>Checking latest version</value>
+  </data>
+  <data name="about_newver_fail" xml:space="preserve">
+    <value>Latest version: unknown</value>
+  </data>
+  <data name="about_nowver" xml:space="preserve">
+    <value>Current version: </value>
+  </data>
+  <data name="about_ShanaTheme" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="about_ShanaTheme_admin" xml:space="preserve">
+    <value>About(Run as administrator)</value>
+  </data>
+  <data name="afaddfrm_afbutton" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="afaddfrm_helplabel" xml:space="preserve">
+    <value>Parameter(input except prefix '=')</value>
+  </data>
+  <data name="afaddfrm_ShanaTheme" xml:space="preserve">
+    <value>Auido filters</value>
+  </data>
+  <data name="editfrm_bitrateradioButton" xml:space="preserve">
+    <value>Bit rate</value>
+  </data>
+  <data name="editfrm_cancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="editfrm_crfradioButton" xml:space="preserve">
+    <value>Quality</value>
+  </data>
+  <data name="editfrm_defButton" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="editfrm_extensionlabel" xml:space="preserve">
+    <value>Extension</value>
+  </data>
+  <data name="editfrm_formatlabel" xml:space="preserve">
+    <value>File format</value>
+  </data>
+  <data name="editfrm_fpscheckBox" xml:space="preserve">
+    <value>Frame rate</value>
+  </data>
+  <data name="editfrm_encButton" xml:space="preserve">
+    <value>Encoding</value>
+  </data>
+  <data name="editfrm_keyframecheckBox" xml:space="preserve">
+    <value>Keyframe</value>
+  </data>
+  <data name="editfrm_metarecheckBox" xml:space="preserve">
+    <value>Remove metadata</value>
+  </data>
+  <data name="editfrm_movtextcheckBox" xml:space="preserve">
+    <value>Closed Caption</value>
+  </data>
+  <data name="editfrm_OKButton" xml:space="preserve">
+    <value>Save settings</value>
+  </data>
+  <data name="editfrm_prefixlabel" xml:space="preserve">
+    <value>Prefix filename</value>
+  </data>
+  <data name="editfrm_qpradioButton" xml:space="preserve">
+    <value>Quantizer</value>
+  </data>
+  <data name="editfrm_shanapass2checkBox" xml:space="preserve">
+    <value>2 Pass</value>
+  </data>
+  <data name="editfrm_ShanaTheme" xml:space="preserve">
+    <value>Quick settings</value>
+  </data>
+  <data name="editfrm_timestampcheckBox" xml:space="preserve">
+    <value>Timestamp</value>
+  </data>
+  <data name="editfrm_tunefdcheckBox" xml:space="preserve">
+    <value>Fast Decode</value>
+  </data>
+  <data name="editfrm_tunezlcheckBox" xml:space="preserve">
+    <value>Zero Latency</value>
+  </data>
+  <data name="editfrm_vbitrateradioButton" xml:space="preserve">
+    <value>Bit rate</value>
+  </data>
+  <data name="editfrm_vcodeclabel" xml:space="preserve">
+    <value>Codec</value>
+  </data>
+  <data name="editfrm_vquantizerradioButton" xml:space="preserve">
+    <value>Quantizer</value>
+  </data>
+  <data name="editfrm_vtagcheckBox" xml:space="preserve">
+    <value>FourCC</value>
+  </data>
+  <data name="editfrm_x264ffpass0checkBox" xml:space="preserve">
+    <value>Slow first pass</value>
+  </data>
+  <data name="editfrm_x264levellabel" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="editfrm_x264presetlabel" xml:space="preserve">
+    <value>Preset</value>
+  </data>
+  <data name="editfrm_x264profilelabel" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="editfrm_x264tunelabel" xml:space="preserve">
+    <value>Tune</value>
+  </data>
+  <data name="edit_audiobit_chg" xml:space="preserve">
+    <value>Now, audio bit rate value do not exist from registered audio bit rate combobox.
+It may occur encoding error.
+Fix settings correctly?</value>
+  </data>
+  <data name="edit_audiosample_chg" xml:space="preserve">
+    <value>Now, audio sample rate value do not exist from registered audio sample rate combobox.
+It may occur encoding error.
+Fix settings correctly?</value>
+  </data>
+  <data name="edit_cc_caution" xml:space="preserve">
+    <value>Speeding settings and Closed Caption settings use at the same time.
+It may occur Closed Caption sync problem.
+Not recommended to use a Speeding setting or Closed Caption.</value>
+  </data>
+  <data name="edit_cc_sn" xml:space="preserve">
+    <value>Cannot set due to use of Closed Caption.</value>
+  </data>
+  <data name="edit_exten_caution" xml:space="preserve">
+    <value>Extension \, /, :, *, ?, &lt;, &gt;, | cannot enter.</value>
+  </data>
+  <data name="edit_need_abit" xml:space="preserve">
+    <value>This audio codec need audio bit rate.
+Audio bit rate is set to 128.</value>
+  </data>
+  <data name="edit_need_asample" xml:space="preserve">
+    <value>This audio codec or audio mode needs audio sample rate.
+Used to automatically.</value>
+  </data>
+  <data name="edit_notice" xml:space="preserve">
+    <value>Notification</value>
+  </data>
+  <data name="edit_pass2_caution" xml:space="preserve">
+    <value>This codec is not able to setting automatic proper 2 Pass bit rate.
+Lower bit rate may occur error.</value>
+  </data>
+  <data name="edit_prefix_caution" xml:space="preserve">
+    <value>Filename prefix \, /, :, *, ?, &lt;, &gt;, | cannot enter.</value>
+  </data>
+  <data name="edit_samplechk" xml:space="preserve">
+    <value>Set the sample rate cannot be used.
+Select the proper sample rate automatically.</value>
+  </data>
+  <data name="edit_setsar_chg" xml:space="preserve">
+    <value>SAR(Sample aspect ratio) is not 1/1.
+If not set 1/1, aspect ratio may cause problems.
+Modify to 1/1?</value>
+  </data>
+  <data name="edit_video_bitrate" xml:space="preserve">
+    <value>Video bit rate</value>
+  </data>
+  <data name="edit_video_quality" xml:space="preserve">
+    <value>Video quality</value>
+  </data>
+  <data name="edit_video_quantizer" xml:space="preserve">
+    <value>Video quantizer</value>
+  </data>
+  <data name="edit_vorbis_mono" xml:space="preserve">
+    <value>libvorbis and 1ch settings is limited to 224 bit rate.
+Therefore set to 224 automatically.</value>
+  </data>
+  <data name="edit_yadif" xml:space="preserve">
+    <value>You have selected the Yadif Deinterlace.
+Yadif is located at the top of filters order.</value>
+  </data>
+  <data name="edit_yadif_double" xml:space="preserve">
+    <value>You have selected the double frame rate.
+Please select frame rate of double.</value>
+  </data>
+  <data name="mainfrm_aboutToolStripMenuItem" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="parameterfrm_encslabel" xml:space="preserve">
+    <value>Encoding settings</value>
+  </data>
+  <data name="parameterfrm_extenslabel" xml:space="preserve">
+    <value>Extension</value>
+  </data>
+  <data name="openfrm_fileaddlabel" xml:space="preserve">
+    <value>Information is extracted.
+While adding files to the list.</value>
+  </data>
+  <data name="mainfrm_filterToolStripMenuItem" xml:space="preserve">
+    <value>Filter settings</value>
+  </data>
+  <data name="parameterfrm_filterparamslabel" xml:space="preserve">
+    <value>Filter parameter</value>
+  </data>
+  <data name="mainfrm_folderBrowserButton" xml:space="preserve">
+    <value>Select output folder</value>
+  </data>
+  <data name="parameterfrm_inputslabel" xml:space="preserve">
+    <value>Input setting</value>
+  </data>
+  <data name="mainfrm_listView_format" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="mainfrm_listView_name" xml:space="preserve">
+    <value> Name</value>
+  </data>
+  <data name="mainfrm_listView_playtime" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="mainfrm_listView_preset" xml:space="preserve">
+    <value>Preset</value>
+  </data>
+  <data name="mainfrm_listView_status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="mainfrm_listView_subtitle" xml:space="preserve">
+    <value>Subtitle</value>
+  </data>
+  <data name="mainfrm_logsaveToolStripMenuItem" xml:space="preserve">
+    <value>Save log file</value>
+  </data>
+  <data name="mainfrm_menuButton" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="mainfrm_noticecheckBox" xml:space="preserve">
+    <value>Do not show this message again</value>
+  </data>
+  <data name="mainfrm_noticecloseButton" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="mainfrm_noticegroupBox" xml:space="preserve">
+    <value>Notification</value>
+  </data>
+  <data name="parameterfrm_prefixslabel" xml:space="preserve">
+    <value>Prefix filename</value>
+  </data>
+  <data name="mainfrm_presetToolStripMenuItem" xml:space="preserve">
+    <value>Preset</value>
+  </data>
+  <data name="mainfrm_schecklabel" xml:space="preserve">
+    <value>To apply the new settings
+in 'user' preset item,
+Press the right mouse button
+and click the
+'Change to current settings'
+on the menu.</value>
+  </data>
+  <data name="mainfrm_startButton" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="main_allfile" xml:space="preserve">
+    <value>All files</value>
+  </data>
+  <data name="main_always_cur_set" xml:space="preserve">
+    <value>Are you sure you want to always use the current settings?</value>
+  </data>
+  <data name="main_file_not_found" xml:space="preserve">
+    <value>The file does not exist.</value>
+  </data>
+  <data name="main_info_audio" xml:space="preserve">
+    <value>Audio: </value>
+  </data>
+  <data name="main_info_bitrate" xml:space="preserve">
+    <value>Bit rate</value>
+  </data>
+  <data name="mainfrm_poslabel" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="main_info_elapsed" xml:space="preserve">
+    <value>Elapsed</value>
+  </data>
+  <data name="main_info_format" xml:space="preserve">
+    <value>Format: </value>
+  </data>
+  <data name="main_info_frame" xml:space="preserve">
+    <value>Frame</value>
+  </data>
+  <data name="main_info_output" xml:space="preserve">
+    <value>Output: </value>
+  </data>
+  <data name="main_info_playtime" xml:space="preserve">
+    <value>Duration: </value>
+  </data>
+  <data name="main_info_q" xml:space="preserve">
+    <value>Q</value>
+  </data>
+  <data name="main_info_remaining" xml:space="preserve">
+    <value>Remaining</value>
+  </data>
+  <data name="mainfrm_filesizelabel" xml:space="preserve">
+    <value>File size</value>
+  </data>
+  <data name="main_info_speed" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="main_info_subtitle" xml:space="preserve">
+    <value>Subtitle: </value>
+  </data>
+  <data name="main_info_video" xml:space="preserve">
+    <value>Video: </value>
+  </data>
+  <data name="main_input_file_not_found" xml:space="preserve">
+    <value>The input file does not exist.</value>
+  </data>
+  <data name="main_log_save_notice" xml:space="preserve">
+    <value>The log is saved in settings\shanaencoder.log in the installed folder.</value>
+  </data>
+  <data name="main_mediafile" xml:space="preserve">
+    <value>Media files</value>
+  </data>
+  <data name="main_output_file_not_found" xml:space="preserve">
+    <value>The output file does not exist or file is not found.</value>
+  </data>
+  <data name="main_output_folder_not_found" xml:space="preserve">
+    <value>The output directory does not exist.</value>
+  </data>
+  <data name="main_preset_folder_not_found" xml:space="preserve">
+    <value>The preset directory does not exist.</value>
+  </data>
+  <data name="main_resume" xml:space="preserve">
+    <value>Resume</value>
+  </data>
+  <data name="main_set_chg" xml:space="preserve">
+    <value />
+  </data>
+  <data name="main_set_chg_fail" xml:space="preserve">
+    <value>The list is already started the encoding.</value>
+  </data>
+  <data name="main_set_chg_s" xml:space="preserve">
+    <value>Settings have been changed.</value>
+  </data>
+  <data name="main_set_chg_s_a" xml:space="preserve">
+    <value>Changed the settings of all selected items.</value>
+  </data>
+  <data name="main_suspend" xml:space="preserve">
+    <value>Suspend</value>
+  </data>
+  <data name="main_tray_exit_move_notice" xml:space="preserve">
+    <value>Go here, when you close the program.</value>
+  </data>
+  <data name="editfrm_acodeclabel" xml:space="preserve">
+    <value>Codec</value>
+  </data>
+  <data name="editfrm_aresamplecheckBox" xml:space="preserve">
+    <value>Sample rate</value>
+  </data>
+  <data name="editfrm_aspect0" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="editfrm_aspect1" xml:space="preserve">
+    <value>Padding</value>
+  </data>
+  <data name="editfrm_aspect2" xml:space="preserve">
+    <value>Cropping</value>
+  </data>
+  <data name="editfrm_aspectlabel" xml:space="preserve">
+    <value>Aspect</value>
+  </data>
+  <data name="editfrm_audiobitratelabel" xml:space="preserve">
+    <value>Audio bit rate</value>
+  </data>
+  <data name="editfrm_audiomodelabel" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="editfrm_audioButton" xml:space="preserve">
+    <value>Audio</value>
+  </data>
+  <data name="editfrm_BackLabel2" xml:space="preserve">
+    <value>Shadow</value>
+  </data>
+  <data name="editfrm_BoldcheckBox" xml:space="preserve">
+    <value>Bold</value>
+  </data>
+  <data name="editfrm_chlabel" xml:space="preserve">
+    <value>Channel</value>
+  </data>
+  <data name="editfrm_logogroupBox" xml:space="preserve">
+    <value>Logo</value>
+  </data>
+  <data name="editfrm_logolabel" xml:space="preserve">
+    <value>Not save in the preset.</value>
+  </data>
+  <data name="editfrm_dBvolcheckBox" xml:space="preserve">
+    <value>dB</value>
+  </data>
+  <data name="editfrm_eq2bButton" xml:space="preserve">
+    <value>Brightness</value>
+  </data>
+  <data name="editfrm_eq2cButton" xml:space="preserve">
+    <value>Contrast</value>
+  </data>
+  <data name="editfrm_eq2checkBox" xml:space="preserve">
+    <value>Enable Eq2</value>
+  </data>
+  <data name="editfrm_eq2gButton" xml:space="preserve">
+    <value>Gamma</value>
+  </data>
+  <data name="editfrm_eqBassToolStripMenuItem" xml:space="preserve">
+    <value>Bass</value>
+  </data>
+  <data name="editfrm_eqPopToolStripMenuItem" xml:space="preserve">
+    <value>Pop</value>
+  </data>
+  <data name="editfrm_eqRockToolStripMenuItem" xml:space="preserve">
+    <value>Rock</value>
+  </data>
+  <data name="editfrm_eqTrebleToolStripMenuItem" xml:space="preserve">
+    <value>Treble</value>
+  </data>
+  <data name="editfrm_fivedotoneradioButton" xml:space="preserve">
+    <value>5.1 Ch</value>
+  </data>
+  <data name="editfrm_fontButton" xml:space="preserve">
+    <value>Subtitle font</value>
+  </data>
+  <data name="editfrm_fontsizelabel" xml:space="preserve">
+    <value>Fontsize</value>
+  </data>
+  <data name="editfrm_hflipcheckBox" xml:space="preserve">
+    <value>Flip horizontal</value>
+  </data>
+  <data name="editfrm_huecheckBox" xml:space="preserve">
+    <value>Enable Hue</value>
+  </data>
+  <data name="editfrm_huehButton" xml:space="preserve">
+    <value>Hue</value>
+  </data>
+  <data name="editfrm_huesButton" xml:space="preserve">
+    <value>Saturation</value>
+  </data>
+  <data name="editfrm_lameabrradioButton" xml:space="preserve">
+    <value>ABR</value>
+  </data>
+  <data name="editfrm_lamecbrradioButton" xml:space="preserve">
+    <value>CBR</value>
+  </data>
+  <data name="editfrm_lamedefradioButton" xml:space="preserve">
+    <value>Not using</value>
+  </data>
+  <data name="editfrm_logoButton" xml:space="preserve">
+    <value>Logo</value>
+  </data>
+  <data name="editfrm_MarginLLabel" xml:space="preserve">
+    <value>Margin left</value>
+  </data>
+  <data name="editfrm_MarginRLabel" xml:space="preserve">
+    <value>Margin right</value>
+  </data>
+  <data name="editfrm_MarginVLabel" xml:space="preserve">
+    <value>Margin vertical</value>
+  </data>
+  <data name="editfrm_miscButton" xml:space="preserve">
+    <value>Misc</value>
+  </data>
+  <data name="editfrm_monoradioButton" xml:space="preserve">
+    <value>Mono</value>
+  </data>
+  <data name="editfrm_OutlineLabel2" xml:space="preserve">
+    <value>Outline</value>
+  </data>
+  <data name="editfrm_resizelabel" xml:space="preserve">
+    <value>default: bicubic</value>
+  </data>
+  <data name="editfrm_scalecheckBox" xml:space="preserve">
+    <value>Image size</value>
+  </data>
+  <data name="editfrm_shanaeqallzeroButton" xml:space="preserve">
+    <value>All zero</value>
+  </data>
+  <data name="editfrm_shanaeqcheckBox" xml:space="preserve">
+    <value>Enable audio equalizer</value>
+  </data>
+  <data name="editfrm_shanaeqpresetButton" xml:space="preserve">
+    <value>Preset</value>
+  </data>
+  <data name="editfrm_shanasubtitlecheckBox" xml:space="preserve">
+    <value>Subtitle overlay</value>
+  </data>
+  <data name="editfrm_sncheckBox" xml:space="preserve">
+    <value>Disable subtitle copy</value>
+  </data>
+  <data name="editfrm_speedcheckBox" xml:space="preserve">
+    <value>Enable</value>
+  </data>
+  <data name="editfrm_speedgroupBox" xml:space="preserve">
+    <value>Speeding</value>
+  </data>
+  <data name="editfrm_speedlabel" xml:space="preserve">
+    <value>If set 1, setting is disabled.</value>
+  </data>
+  <data name="editfrm_stereoradioButton" xml:space="preserve">
+    <value>Stereo</value>
+  </data>
+  <data name="editfrm_subtitlealignlabel" xml:space="preserve">
+    <value>Align</value>
+  </data>
+  <data name="editfrm_subtitlehlabel" xml:space="preserve">
+    <value>If not using Closed Caption, Please enable 'Disable subtitle copy'
+in order to prevent encoding error.</value>
+  </data>
+  <data name="editfrm_imgButton" xml:space="preserve">
+    <value>Image/Subtitle</value>
+  </data>
+  <data name="editfrm_swslabel" xml:space="preserve">
+    <value>Resize filter</value>
+  </data>
+  <data name="editfrm_transposecheckBox" xml:space="preserve">
+    <value>Rotate</value>
+  </data>
+  <data name="editfrm_transposeleftradioButton" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="editfrm_transposerightradioButton" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="editfrm_transposeverticallycheckBox" xml:space="preserve">
+    <value>Flip vertically</value>
+  </data>
+  <data name="editfrm_unsharpcheckBox" xml:space="preserve">
+    <value>Blur/Sharp</value>
+  </data>
+  <data name="editfrm_unsharplabel" xml:space="preserve">
+    <value>Blur: less than 0, Sharpen: greater than 0 (Default: 0)</value>
+  </data>
+  <data name="editfrm_vflipcheckBox" xml:space="preserve">
+    <value>Flip vertically</value>
+  </data>
+  <data name="editfrm_volcheckBox" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="editfrm_sizelabel" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="editfrm_yadifcheckBox" xml:space="preserve">
+    <value>Deinterlace</value>
+  </data>
+  <data name="editfrm_yadiffieldcheckBox" xml:space="preserve">
+    <value>Double frame rate</value>
+  </data>
+  <data name="filterfrm_addbutton" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="filterfrm_afdefbutton" xml:space="preserve">
+    <value>Default audio filters</value>
+  </data>
+  <data name="filterfrm_afButton" xml:space="preserve">
+    <value>Audio</value>
+  </data>
+  <data name="filterfrm_bottombutton" xml:space="preserve">
+    <value>Down</value>
+  </data>
+  <data name="filterfrm_cancelbutton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="filterfrm_changebutton" xml:space="preserve">
+    <value>Replace</value>
+  </data>
+  <data name="filterfrm_helplabel" xml:space="preserve">
+    <value>Audio/Video Filter Editor.
+
+The effect is different on filter order and filters are applied from the top line.</value>
+  </data>
+  <data name="filterfrm_name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="filterfrm_okbutton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="filterfrm_parameter" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="filterfrm_ppbutton" xml:space="preserve">
+    <value>Property</value>
+  </data>
+  <data name="filterfrm_removebutton" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="filterfrm_ShanaTheme" xml:space="preserve">
+    <value>Filter settings</value>
+  </data>
+  <data name="filterfrm_topbutton" xml:space="preserve">
+    <value>Up</value>
+  </data>
+  <data name="filterfrm_vfdefbutton" xml:space="preserve">
+    <value>Default video filters</value>
+  </data>
+  <data name="filterfrm_vfButton" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="filter_af_aresample" xml:space="preserve">
+    <value>Set audio sample rate.
+Left value is a sample rate and right value is resampler.
+You can choose two resampler.(soxr or swr)
+Default is 44100:resampler=soxr</value>
+  </data>
+  <data name="filter_vf_scale" xml:space="preserve">
+    <value>Set scale(size of video)
+Width:Height:Resize filter
+If width or height value is -1, width or height is set automatically.
+In proportion to SAR or DAR</value>
+  </data>
+  <data name="filter_vf_setsar" xml:space="preserve">
+    <value>Sample Aspect Ratio
+Default is 1/1</value>
+  </data>
+  <data name="filter_vf_shanasubtitle" xml:space="preserve">
+    <value>Subtitle overlay
+shanasubtitle=1 is enable / shanasubtitle=0 is disable.
+Support for ASS, SSA, SMI files.</value>
+  </data>
+  <data name="logofrm_aligngroupBox" xml:space="preserve">
+    <value>Align</value>
+  </data>
+  <data name="logofrm_cancelbutton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="logofrm_defbutton" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="logofrm_fadegroupBox" xml:space="preserve">
+    <value>Fade in, out and set time(second) for logo overlay.</value>
+  </data>
+  <data name="logofrm_filepathlabel" xml:space="preserve">
+    <value>Logo image file path</value>
+  </data>
+  <data name="logofrm_logocheckBox" xml:space="preserve">
+    <value>Enable logo</value>
+  </data>
+  <data name="logofrm_logoecheckBox" xml:space="preserve">
+    <value>End time</value>
+  </data>
+  <data name="logofrm_logoelabel" xml:space="preserve">
+    <value>Fade out</value>
+  </data>
+  <data name="logofrm_logoilabel" xml:space="preserve">
+    <value>If video codec is copy(Direct Stream Copy), the logo is disable.
+The logo is not visible in the preview.(encoding only)
+*Not save in the preset.</value>
+  </data>
+  <data name="logofrm_logolbradioButton" xml:space="preserve">
+    <value>Bottom left</value>
+  </data>
+  <data name="logofrm_logoltradioButton" xml:space="preserve">
+    <value>Top teft</value>
+  </data>
+  <data name="logofrm_logopathbutton" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="logofrm_logorbradioButton" xml:space="preserve">
+    <value>Bottom right</value>
+  </data>
+  <data name="logofrm_logortradioButton" xml:space="preserve">
+    <value>Top right</value>
+  </data>
+  <data name="logofrm_logoscheckBox" xml:space="preserve">
+    <value>Start time</value>
+  </data>
+  <data name="logofrm_logoslabel" xml:space="preserve">
+    <value>Fade in</value>
+  </data>
+  <data name="logofrm_okbutton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="logofrm_ShanaTheme" xml:space="preserve">
+    <value>Logo overlay</value>
+  </data>
+  <data name="logofrm_xlabel" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="logofrm_xygroupBox" xml:space="preserve">
+    <value>Margin</value>
+  </data>
+  <data name="logofrm_ylabel" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="logo_err" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="logo_imagefile" xml:space="preserve">
+    <value>Image files</value>
+  </data>
+  <data name="logo_patherr" xml:space="preserve">
+    <value>Logo path % cannot enter.</value>
+  </data>
+  <data name="mainfrm_addToolStripMenuItem" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="mainfrm_allremoveToolStripMenuItem" xml:space="preserve">
+    <value>Remove All</value>
+  </data>
+  <data name="mainfrm_alwayssaveToolStripMenuItem" xml:space="preserve">
+    <value>Always use the current settings</value>
+  </data>
+  <data name="mainfrm_BackToolStripMenuItem" xml:space="preserve">
+    <value>Title bar</value>
+  </data>
+  <data name="mainfrm_chkallToolStripMenuItem" xml:space="preserve">
+    <value>Check All</value>
+  </data>
+  <data name="mainfrm_ColorChangeToolStripMenuItem" xml:space="preserve">
+    <value>Change skin</value>
+  </data>
+  <data name="mainfrm_configureToolStripMenuItem" xml:space="preserve">
+    <value>Preferences</value>
+  </data>
+  <data name="mainfrm_logToolStripMenuItem" xml:space="preserve">
+    <value>View log</value>
+  </data>
+  <data name="mainfrm_EncMethodToolStripMenuItem" xml:space="preserve">
+    <value>If an output file already exists</value>
+  </data>
+  <data name="mainfrm_encnoneToolStripMenuItem" xml:space="preserve">
+    <value>Skip</value>
+  </data>
+  <data name="mainfrm_encnumbToolStripMenuItem" xml:space="preserve">
+    <value>Numbering</value>
+  </data>
+  <data name="mainfrm_encoverwToolStripMenuItem" xml:space="preserve">
+    <value>Overwriting</value>
+  </data>
+  <data name="mainfrm_exit2ToolStripMenuItem" xml:space="preserve">
+    <value>Exit(&amp;X)</value>
+  </data>
+  <data name="mainfrm_ExitToolStripMenuItem" xml:space="preserve">
+    <value>Exit(&amp;X)</value>
+  </data>
+  <data name="mainfrm_FileInfoToolStripMenuItem" xml:space="preserve">
+    <value>File information</value>
+  </data>
+  <data name="mainfrm_FontToolStripMenuItem" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="mainfrm_MTToolStripMenuItem" xml:space="preserve">
+    <value>Multi thread/Sync</value>
+  </data>
+  <data name="mainfrm_NewVerToolStripMenuItem" xml:space="preserve">
+    <value>[A new version is available]</value>
+  </data>
+  <data name="mainfrm_OpenToolStripMenuItem" xml:space="preserve">
+    <value>Open ShanaEncoder(&amp;O)</value>
+  </data>
+  <data name="mainfrm_outFileInfoToolStripMenuItem" xml:space="preserve">
+    <value>Output file information</value>
+  </data>
+  <data name="mainfrm_outplayToolStripMenuItem" xml:space="preserve">
+    <value>Output file playback</value>
+  </data>
+  <data name="mainfrm_PAboveNormalToolStripMenuItem" xml:space="preserve">
+    <value>Above normal</value>
+  </data>
+  <data name="mainfrm_PBelowNormalToolStripMenuItem" xml:space="preserve">
+    <value>Below normal</value>
+  </data>
+  <data name="mainfrm_PHighToolStripMenuItem" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="mainfrm_PIdleToolStripMenuItem" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="mainfrm_PNormalToolStripMenuItem" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="mainfrm_previewToolStripMenuItem" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="mainfrm_ProcPriorityToolStripMenuItem" xml:space="preserve">
+    <value>Process priority</value>
+  </data>
+  <data name="mainfrm_infoTabButton" xml:space="preserve">
+    <value>File information</value>
+  </data>
+  <data name="mainfrm_removeToolStripMenuItem" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="mainfrm_segmentToolStripMenuItem" xml:space="preserve">
+    <value>Set segment/Crop(&amp;Q)</value>
+  </data>
+  <data name="mainfrm_selallToolStripMenuItem" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="mainfrm_setchangeToolStripMenuItem" xml:space="preserve">
+    <value>Change to current settings</value>
+  </data>
+  <data name="mainfrm_subdelayToolStripMenuItem" xml:space="preserve">
+    <value>Subtitle delay/preferred language(&amp;W)</value>
+  </data>
+  <data name="mainfrm_SubtitleSelToolStripMenuItem" xml:space="preserve">
+    <value>Subtitle selection</value>
+  </data>
+  <data name="mainfrm_trayToolStripMenuItem" xml:space="preserve">
+    <value>Closing the main window to tray</value>
+  </data>
+  <data name="mainfrm_unchkallToolStripMenuItem" xml:space="preserve">
+    <value>Uncheck All</value>
+  </data>
+  <data name="mainfrm_unselallToolStripMenuItem" xml:space="preserve">
+    <value>Unselect All</value>
+  </data>
+  <data name="segmentfrm_BottomLabel" xml:space="preserve">
+    <value>Bottom:</value>
+  </data>
+  <data name="segmentfrm_cancelbutton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="segmentfrm_cropButton" xml:space="preserve">
+    <value>Crop</value>
+  </data>
+  <data name="segmentfrm_endtimecheckBox" xml:space="preserve">
+    <value>End time</value>
+  </data>
+  <data name="segmentfrm_LeftLabel" xml:space="preserve">
+    <value>Left:</value>
+  </data>
+  <data name="segmentfrm_loopcancelbutton" xml:space="preserve">
+    <value>Discard Changes and Close</value>
+  </data>
+  <data name="segmentfrm_okbutton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="segmentfrm_ppbutton" xml:space="preserve">
+    <value>Play/Pause</value>
+  </data>
+  <data name="segmentfrm_RightLabel" xml:space="preserve">
+    <value>Right:</value>
+  </data>
+  <data name="segmentfrm_sdnbutton" xml:space="preserve">
+    <value>Slow</value>
+  </data>
+  <data name="segmentfrm_segmentButton" xml:space="preserve">
+    <value>Segment</value>
+  </data>
+  <data name="segmentfrm_ShanaTheme" xml:space="preserve">
+    <value>Set segment/Crop</value>
+  </data>
+  <data name="segmentfrm_SizeLabel" xml:space="preserve">
+    <value>Size:</value>
+  </data>
+  <data name="segmentfrm_stimecheckBox" xml:space="preserve">
+    <value>Start time</value>
+  </data>
+  <data name="segmentfrm_supbutton" xml:space="preserve">
+    <value>Fast</value>
+  </data>
+  <data name="segmentfrm_TopLabel" xml:space="preserve">
+    <value>Top:</value>
+  </data>
+  <data name="segment_enderr" xml:space="preserve">
+    <value>End time was not in a correct format.</value>
+  </data>
+  <data name="segment_notice" xml:space="preserve">
+    <value>Notification</value>
+  </data>
+  <data name="segment_starterr" xml:space="preserve">
+    <value>Start time was not in a correct format.</value>
+  </data>
+  <data name="setdeffrm_cancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="setdeffrm_defButton" xml:space="preserve">
+    <value>Change to default</value>
+  </data>
+  <data name="setdeffrm_deflabel" xml:space="preserve">
+    <value>The selected item is set to default value.</value>
+  </data>
+  <data name="setdeffrm_enccheckBox" xml:space="preserve">
+    <value>Encoding settings
+(Including input, prefix, extension)</value>
+  </data>
+  <data name="setdeffrm_filtercheckBox" xml:space="preserve">
+    <value>Filter settings</value>
+  </data>
+  <data name="setdeffrm_ShanaTheme" xml:space="preserve">
+    <value>Load settings default</value>
+  </data>
+  <data name="setdeffrm_subtitlecheckBox" xml:space="preserve">
+    <value>Subtitle settings</value>
+  </data>
+  <data name="shanafontfrm_cancelbutton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="shanafontfrm_defbutton" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="shanafontfrm_fontgroupBox" xml:space="preserve">
+    <value>Fontname</value>
+  </data>
+  <data name="shanafontfrm_okbutton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="shanafontfrm_ShanaTheme" xml:space="preserve">
+    <value>Subtitle font</value>
+  </data>
+  <data name="shanamtfrm_cancelbutton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="shanamtfrm_decgroupBox" xml:space="preserve">
+    <value>Decoding</value>
+  </data>
+  <data name="shanamtfrm_defbutton" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="shanamtfrm_encgroupBox" xml:space="preserve">
+    <value>Encoding</value>
+  </data>
+  <data name="shanamtfrm_mtlabel" xml:space="preserve">
+    <value>threads (Default 0)
+thread_type (Default frame)
+async (Default 1, Do not edit or delete 'async')</value>
+  </data>
+  <data name="shanamtfrm_okbutton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="shanamtfrm_ShanaTheme" xml:space="preserve">
+    <value>Multi thread/Sync</value>
+  </data>
+  <data name="shutdown_remaintime" xml:space="preserve">
+    <value>Remaining</value>
+  </data>
+  <data name="shutdown_sec" xml:space="preserve">
+    <value>s</value>
+  </data>
+  <data name="shutdownfrm_cancelbutton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="shutdownfrm_ShanaTheme" xml:space="preserve">
+    <value>Shutdown PC</value>
+  </data>
+  <data name="shutdownfrm_ShutdownLabel" xml:space="preserve">
+    <value>Shutdown PC after 30 seconds.</value>
+  </data>
+  <data name="subdelayfrm_cancelbutton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="subdelayfrm_loopcancelbutton" xml:space="preserve">
+    <value>Discard Changes and Close</value>
+  </data>
+  <data name="subdelayfrm_okbutton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="subdelayfrm_ShanaTheme" xml:space="preserve">
+    <value>Subtitle delay/preferred language</value>
+  </data>
+  <data name="subtitlefrm_cancelbutton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="subtitlefrm_defbutton" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="subtitlefrm_format" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="subtitlefrm_okbutton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="subtitlefrm_ShanaTheme" xml:space="preserve">
+    <value>Subtitle style</value>
+  </data>
+  <data name="subtitlefrm_style" xml:space="preserve">
+    <value>Style</value>
+  </data>
+  <data name="subtitlefrm_styleButton" xml:space="preserve">
+    <value>Replace</value>
+  </data>
+  <data name="subtitle_alignment" xml:space="preserve">
+    <value>Set the position of the overlay.
+The alignment is equal to the keyboard number pad.
+You can enter from 1 to 9</value>
+  </data>
+  <data name="subtitle_angle" xml:space="preserve">
+    <value>Set the angle.
+You can enter from 0 to 359
+Default is 0</value>
+  </data>
+  <data name="subtitle_backcolour" xml:space="preserve">
+    <value>Set the shadow color and transparency.
+(&amp;&amp;H Alpha Blue Green Red) order and hexadecimal value.</value>
+  </data>
+  <data name="subtitle_bold" xml:space="preserve">
+    <value>Set whether to use bold.
+-1 is enabled, 0 is disabled.</value>
+  </data>
+  <data name="subtitle_borderstyle" xml:space="preserve">
+    <value>Set the border style.
+1 is Outline+Shadow, 3 is Opaque Box.</value>
+  </data>
+  <data name="subtitle_encoding" xml:space="preserve">
+    <value>Set the character encoding.
+Default is 1</value>
+  </data>
+  <data name="subtitle_fontname" xml:space="preserve">
+    <value>Set the font name.</value>
+  </data>
+  <data name="subtitle_fontsize" xml:space="preserve">
+    <value>Set the font size.
+The recommended setting range is 0~99</value>
+  </data>
+  <data name="subtitle_italic" xml:space="preserve">
+    <value>Set whether to use italic.
+-1 is enabled, 0 is disabled.</value>
+  </data>
+  <data name="subtitle_marginl" xml:space="preserve">
+    <value>Set the left margin.
+The recommended setting range is 0~1000</value>
+  </data>
+  <data name="subtitle_marginr" xml:space="preserve">
+    <value>Set the right margin.
+The recommended setting range is 0~1000</value>
+  </data>
+  <data name="subtitle_marginv" xml:space="preserve">
+    <value>Set the vertical margin.
+The recommended setting range is 0~1000</value>
+  </data>
+  <data name="subtitle_name" xml:space="preserve">
+    <value>Set the style.
+Default is Style: Default</value>
+  </data>
+  <data name="subtitle_outline" xml:space="preserve">
+    <value>Set the outline.
+The recommended setting range is 0.0~100.0</value>
+  </data>
+  <data name="subtitle_outlinecolour" xml:space="preserve">
+    <value>Set the outline color and transparency.
+(&amp;&amp;H Alpha Blue Green Red) order and hexadecimal value.</value>
+  </data>
+  <data name="subtitle_primarycolour" xml:space="preserve">
+    <value>Set the primary color and transparency.
+(&amp;&amp;H Alpha Blue Green Red) order and hexadecimal value.</value>
+  </data>
+  <data name="subtitle_scalex" xml:space="preserve">
+    <value>Set the X-axis scale.(Unit: %)
+Default is 100</value>
+  </data>
+  <data name="subtitle_scaley" xml:space="preserve">
+    <value>Set the Y-axis scale.(Unit: %)
+Default is 100</value>
+  </data>
+  <data name="subtitle_secondarycolour" xml:space="preserve">
+    <value>Set the secondary color and transparency.
+(&amp;&amp;H Alpha Blue Green Red) order and hexadecimal value.</value>
+  </data>
+  <data name="subtitle_shadow" xml:space="preserve">
+    <value>Set the shadow.
+The recommended setting range is 0.0~100.0</value>
+  </data>
+  <data name="subtitle_spacing" xml:space="preserve">
+    <value>Set the spacing.
+Default is 0</value>
+  </data>
+  <data name="subtitle_strikeout" xml:space="preserve">
+    <value>Set whether to use strikeout.
+-1 is enabled, 0 is disabled.</value>
+  </data>
+  <data name="subtitle_underline" xml:space="preserve">
+    <value>Set whether to use underline.
+-1 is enabled, 0 is disabled.</value>
+  </data>
+  <data name="vfaddfrm_helplabel" xml:space="preserve">
+    <value>Parameter(input except prefix '=')</value>
+  </data>
+  <data name="vfaddfrm_ShanaTheme" xml:space="preserve">
+    <value>Video Filters</value>
+  </data>
+  <data name="vfaddfrm_vfbutton" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="xmlsavefrm_namelabel" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="xmlsavefrm_savebutton" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="xmlsavefrm_ShanaTheme" xml:space="preserve">
+    <value>Save settings to file</value>
+  </data>
+  <data name="xmlsave_namechk" xml:space="preserve">
+    <value>Please enter name.</value>
+  </data>
+  <data name="xmlsave_notice" xml:space="preserve">
+    <value>Notification</value>
+  </data>
+  <data name="xmlsave_savechk" xml:space="preserve">
+    <value>Name \, /, :, *, ?, &lt;, &gt;, |, &amp; cannot enter.</value>
+  </data>
+  <data name="xmlsave_set_save" xml:space="preserve">
+    <value>The settings have been saved.</value>
+  </data>
+  <data name="edit_anafilterlabel" xml:space="preserve">
+    <value>Not available.
+Because audio codec is none or copy.
+The preview is applied but the encoding is not applied.</value>
+  </data>
+  <data name="edit_anvncopylabel" xml:space="preserve">
+    <value>Copy is Direct Stream Copy.
+The copy mode is may occur error depending on the file.
+None is not encoding video or audio.
+The preview is applied but the encoding is not applied.</value>
+  </data>
+  <data name="mainfrm_forcestopButton" xml:space="preserve">
+    <value>Force stop</value>
+  </data>
+  <data name="mainfrm_stopButton" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="mainfrm_languageToolStripMenuItem" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="main_realtime" xml:space="preserve">
+    <value>Realtime</value>
+  </data>
+  <data name="editfrm_recheckBox" xml:space="preserve">
+    <value>Encoding speed limit to the input frame rate(1.0x) and Realtime encoding</value>
+  </data>
+  <data name="edit_relimit" xml:space="preserve">
+    <value>If use this feature, encoding speed is limited to below 1x.
+Fast encoding is not possible.</value>
+  </data>
+  <data name="aboutfrm_alltext" xml:space="preserve">
+    <value>
+ ShanaEncoder
+
+ This program is possible to install in individual/company/school/government anywhere and use freely.
+ Copyright © 2008-2015 LEE KIWON
+ License: Freeware
+
+ Program Developer: LEE KIWON(Shana) - http://shana.pe.kr
+ Icon Maker
+  - ver 2.x: KIM MINTAE(Iriya) - http://iriyasviel.tistory.com
+  - ver 1.x: N.S.H. - http://kiraraenc.tistory.com
+
+ ----------------------------------------------
+
+ FFmpeg for ShanaEncoder
+
+ Source: http://shana.pe.kr/ffmpeg
+ Copyright (c) 2000-2015 the FFmpeg developers
+ License: GPLv3
+
+ ----------------------------------------------</value>
+  </data>
+  <data name="main_pm_save2" xml:space="preserve">
+    <value>Are you sure you want to save this preset?</value>
+  </data>
+  <data name="main_pm_saveas" xml:space="preserve">
+    <value>Save As...</value>
+  </data>
+  <data name="main_pm_user" xml:space="preserve">
+    <value>Do you want to save to the 'User Preset'?</value>
+  </data>
+  <data name="mainfrm_save_msg" xml:space="preserve">
+    <value>When ShanaEncoder removed, copied preset files from the installation are deleted.
+Recommend that you save with a different filename.
+This message appears only once.</value>
+  </data>
+  <data name="filter_vf_yadif" xml:space="preserve">
+    <value>Set yadif (mode:parity:deint)
+If mode value is 1 or 3, set to double frame rate.
+parity 0=Top field first, 1=Bottom field first, -1=Auto
+deint 0=All, 1=Interlaced</value>
+  </data>
+  <data name="segmentfrm_chgButton" xml:space="preserve">
+    <value>Convert</value>
+  </data>
+  <data name="segmentfrm_crophlabel" xml:space="preserve">
+    <value>Enter here the value of crop. (Recommended when playing.)</value>
+  </data>
+  <data name="segmentfrm_refreshButton" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="segment_invalid" xml:space="preserve">
+    <value>Invalid value.</value>
+  </data>
+  <data name="segment_valuemsg" xml:space="preserve">
+    <value>Enter a value in this way 1920:1072:0:4</value>
+  </data>
+  <data name="segmentfrm_autocropdetectcheckBox" xml:space="preserve">
+    <value>Enable cropdetect filter (Uncheck if slow computer)</value>
+  </data>
+  <data name="openfrm_add" xml:space="preserve">
+    <value>Adding</value>
+  </data>
+  <data name="segmentfrm_cropMButton" xml:space="preserve">
+    <value>Enter value for crop</value>
+  </data>
+  <data name="segmentfrm_settime" xml:space="preserve">
+    <value>Set time</value>
+  </data>
+  <data name="segmentfrm_infolabel" xml:space="preserve">
+    <value>Press the play/pause button to play the file.</value>
+  </data>
+  <data name="segmentfrm_frameinfoButton" xml:space="preserve">
+    <value>Frame info</value>
+  </data>
+  <data name="shanaffplay_loading" xml:space="preserve">
+    <value>Loading</value>
+  </data>
+  <data name="shanaffplayfrm_error" xml:space="preserve">
+    <value>The ShanaFFplay has been terminated.
+
+When playback ends before:
+Cannot be played due to invalid parameter or file in use by another process.</value>
+  </data>
+  <data name="shanaffplay_notice" xml:space="preserve">
+    <value>Notification</value>
+  </data>
+  <data name="shanaffplayfrm_help" xml:space="preserve">
+    <value>To view this help, press the F1 key.
+
+-------------------------
+
+ShanaFFplay Shortcuts
+
+Esc, Q
+Quit.
+
+Space
+Play/Pause.
+
+S
+Step to next frame.
+
+W
+Show audio waves.
+
+[, ]
+Speeding.
+
+Left, Right
+Seek.
+
+Down, Up, Mouse wheel
+Volume.
+
+Mouse click
+Seek to percentage in file corresponding to fraction of width.
+
+Alt + PrtSc
+Screen copy to clipboard.
+
+-------------------------
+
+Description of text on bottom
+
+00:00:00.00
+Play time.
+*Depending on filter settings, this part might not be displayed correctly.
+
+1.0x
+Speeding.
+
+A-V: 0.000
+Difference between audio and video in sync.
+*Depending on filter settings, this part might not be displayed correctly.
+
+vol=128(100%)
+Volume.
+*0~128, Expressed as a percentage in parentheses.
+
+type=?
+Frame type.
+*Depending on filter settings, this part might not be displayed correctly.
+
+keyframe=0
+Key frame.
+If this value is 1, frame is a key frame.
+*Depending on filter settings, this part might not be displayed correctly.
+
+fd=0
+Frame drop.
+*Pass without showing a frame.</value>
+  </data>
+  <data name="shanaffplay_welcome" xml:space="preserve">
+    <value>Welcome to ShanaFFplay.
+To view shortcuts help, press the F1 key.</value>
+  </data>
+  <data name="shanaffplayfrm_helpn" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="editfrm_bitonlylabel" xml:space="preserve">
+    <value>Only bit rate available.</value>
+  </data>
+  <data name="editfrm_guide" xml:space="preserve">
+    <value>Guide</value>
+  </data>
+  <data name="editfrm_libx264closelabel" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="editfrm_movsubsellabel" xml:space="preserve">
+    <value>To use the Closed Caption,
+Please select the file format to 3gp, 3g2, mp4, mov.</value>
+  </data>
+  <data name="editfrm_vadvanButton" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="editfrm_x264proButton" xml:space="preserve">
+    <value>More settings</value>
+  </data>
+  <data name="editfrm_x264procheckBox" xml:space="preserve">
+    <value>Enable more</value>
+  </data>
+  <data name="x264optsfrm_OKButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="x264optsfrm_ShanaTheme" xml:space="preserve">
+    <value>x264 configuration</value>
+  </data>
+  <data name="x264optsfrm_GOPlabel" xml:space="preserve">
+    <value>If you are using GOP size,
+Disable Keyframe to Quick settings.</value>
+  </data>
+  <data name="main_x264paramupdate" xml:space="preserve">
+    <value>x264 settings have been changed automatically.
+profile and tune parameter is changed to none from Null.
+level parameter is changed to auto from Auto.
+Please check the settings and save the changes.</value>
+  </data>
+  <data name="parameterfrm_x264rolabel" xml:space="preserve">
+    <value>x264opts
+(Read-only)</value>
+  </data>
+  <data name="mainfrm_qsetToolStripMenuItem" xml:space="preserve">
+    <value>Quick settings</value>
+  </data>
+  <data name="parameterfrm_cancelbutton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="parameterfrm_okbutton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="parameterfrm_ShanaTheme" xml:space="preserve">
+    <value>Parameters</value>
+  </data>
+  <data name="mainfrm_AfterEncodingToolStripMenuItem" xml:space="preserve">
+    <value>After encoding</value>
+  </data>
+  <data name="mainfrm_paramToolStripMenuItem" xml:space="preserve">
+    <value>Parameters</value>
+  </data>
+  <data name="logfrm_okbutton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="logfrm_ShanaTheme" xml:space="preserve">
+    <value>Encoding log</value>
+  </data>
+  <data name="mainfrm_x86x64ToolStripMenuItem" xml:space="preserve">
+    <value>Selection 32-bit/64-bit</value>
+  </data>
+  <data name="mainfrm_x6464bitToolStripMenuItem" xml:space="preserve">
+    <value>x64(64-bit)</value>
+  </data>
+  <data name="mainfrm_x8632bitToolStripMenuItem" xml:space="preserve">
+    <value>x86(32-bit)</value>
+  </data>
+  <data name="mainfrm_BorderToolStripMenuItem" xml:space="preserve">
+    <value>Border</value>
+  </data>
+  <data name="mainfrm_lvdnToolStripMenuItem" xml:space="preserve">
+    <value>Down(&amp;D)</value>
+  </data>
+  <data name="mainfrm_lvupToolStripMenuItem" xml:space="preserve">
+    <value>Up(&amp;U)</value>
+  </data>
+  <data name="shanafontfrm_font1label" xml:space="preserve">
+    <value>Default font</value>
+  </data>
+  <data name="shanafontfrm_font2label" xml:space="preserve">
+    <value>Enable Alternative font</value>
+  </data>
+  <data name="shana_sa_form" xml:space="preserve">
+    <value>Extracting the subtitle file...</value>
+  </data>
+  <data name="mainfrm_itemButton" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="main_info_input" xml:space="preserve">
+    <value>Input: </value>
+  </data>
+  <data name="main_copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="main_Maxbitrate" xml:space="preserve">
+    <value>Max Bit rate</value>
+  </data>
+  <data name="editfrm_targetcheckBox" xml:space="preserve">
+    <value>Set video bit rate based on file size</value>
+  </data>
+  <data name="editfrm_assforcestylecheckBox" xml:space="preserve">
+    <value>ASS/Internal subtitle
+Force subtitle style</value>
+  </data>
+  <data name="main_pm_pfolder" xml:space="preserve">
+    <value>Open folder</value>
+  </data>
+  <data name="shanafontfrm_addButton" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="shanafontfrm_delButton" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="mainfrm_encspeedlabel" xml:space="preserve">
+    <value>Processing rate</value>
+  </data>
+  <data name="mainfrm_shutdowncheckBox" xml:space="preserve">
+    <value>After encoding Shutdown PC</value>
+  </data>
+  <data name="main_target_low" xml:space="preserve">
+    <value>Too low target size</value>
+  </data>
+  <data name="subdelayfrm_delaylabel" xml:space="preserve">
+    <value>Subtitle delay</value>
+  </data>
+  <data name="subdelayfrm_pclasslabel" xml:space="preserve">
+    <value>Preferred language</value>
+  </data>
+  <data name="mainfrm_procTabButton" xml:space="preserve">
+    <value>Progress status</value>
+  </data>
+  <data name="shanafontfrm_add" xml:space="preserve">
+    <value>You can not add any more.</value>
+  </data>
+  <data name="shanafontfrm_edit_notice" xml:space="preserve">
+    <value>Notification</value>
+  </data>
+  <data name="main_noitemsel" xml:space="preserve">
+    <value>No items selected in the encoding list.</value>
+  </data>
+  <data name="mainfrm_StreamSelectionToolStripMenuItem" xml:space="preserve">
+    <value>Video/Audio stream selection(&amp;E)</value>
+  </data>
+  <data name="streamfrm_aaddButton" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="streamfrm_adelButton" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="streamfrm_agroupBox" xml:space="preserve">
+    <value>Audio stream</value>
+  </data>
+  <data name="streamfrm_cancelbutton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="streamfrm_okbutton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="streamfrm_ShanaTheme" xml:space="preserve">
+    <value>Video/Audio stream selection</value>
+  </data>
+  <data name="streamfrm_vaddButton" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="streamfrm_vdelButton" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="streamfrm_vgroupBox" xml:space="preserve">
+    <value>Video stream</value>
+  </data>
+  <data name="mainfrm_DFOToolStripMenuItem" xml:space="preserve">
+    <value>Deactivate form opacity</value>
+  </data>
+  <data name="streamfrm_loopcancelbutton" xml:space="preserve">
+    <value>Discard Changes and Close</value>
+  </data>
+  <data name="editfrm_libx265closelabel" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="editfrm_x265presetlabel" xml:space="preserve">
+    <value>Preset</value>
+  </data>
+  <data name="editfrm_x265tunelabel" xml:space="preserve">
+    <value>Tune</value>
+  </data>
+  <data name="edit_copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="edit_none" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="main_enc_forcestop_msg" xml:space="preserve">
+    <value>The application was forcibly terminated.</value>
+  </data>
+  <data name="edit_fdkhev2aacchk" xml:space="preserve">
+    <value>You must select stereo channel in HE-AACv2.</value>
+  </data>
+  <data name="openclfrm_gpulabel" xml:space="preserve">
+    <value>Please choose a graphics card.</value>
+  </data>
+  <data name="openclfrm_okbutton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="openclfrm_ShanaTheme" xml:space="preserve">
+    <value>OpenCL acceleration settings</value>
+  </data>
+  <data name="editfrm_openclButton" xml:space="preserve">
+    <value>settings</value>
+  </data>
+  <data name="editfrm_openclcheckBox" xml:space="preserve">
+    <value>OpenCL acceleration</value>
+  </data>
+</root>
